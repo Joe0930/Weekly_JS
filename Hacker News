@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacker News</title>
+  <!-- <style type="text/css"> -->
+    <!-- @import url("Hacker News.css"); -->
+  <style>
+    header {
+  background: #ff6600;
+  margin: 0 130px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#menu {
+  float: left;
+}
+#login {
+  float: right;
+  padding-right: 7px;
+}
+section {
+  background: rgb(246,246,239);
+  margin: 0 130px;
+}
+.upper-list {
+  font-size: 14px;
+  padding-left: 10px;
+}
+.under-list {
+  padding-left: 29px;
+  font-size: 10px;
+}
+#more {
+  padding-top: 10px;
+  padding-left: 29px;
+  font-size: 12px;
+}
+footer {
+  background: rgb(246,246,239);
+  margin: 0 130px;
+  border-top: 3px soild #ff6600;
+}
+#footer-menu {
+  font-size: 10px;
+  text-align: center;
+}
+#search {
+  font-size: 12px;
+  text-align:center;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div id="menu">
+      <a href="https://news.ycombinator.com/"><img src="https://news.ycombinator.com/y18.gif"></a>
+      <a href="https://news.ycombinator.com/news" style="font-weight: bold;">Hacker News</a>
+      <a href="https://news.ycombinator.com/newest">new</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/front">past</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/newcomments">comments</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/ask">ask</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/show">show</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/jobs">jobs</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/submit">submit</a>
+    </div>
+    <div id="login">
+      <a href="https://news.ycombinator.com/login?goto=news">login</a>
+    </div>
+    <div style="clear:both"></div>
+  </header>
+  <section>
+    <div class="list">
+      <div class="upper-list">
+        1. The Day AppGet Died
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        2. The use of 'class' for things that should be simple free functions
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        3. Htmx - high power tools for HTML
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        4. we reduced the AWS costs of our streaming data pipeline
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        5. Show HN: Straight2Spam - Send your email right to someone's spam folder
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        6. Rediscovering the Small Web
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        7. Guerrilla Public Service Redux (2017)
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        8. "Maxwell's equations of software" examined (2008)
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        9. Regexes vs. Combinatorial Parsing (2019)
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        10. Using regmaps to make Linux drivers more generic
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        11. Supabase (YC S20) - An open source Firebase alternative
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        12. Show - HN: I built a $499, landlord-friendly, self-install solar and battery kit
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        13. Editing plant chromosomes using molecular scissors
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        14. $100M in bounties paid via HackerOne to ethical hackers
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        15. Snowpack 2.0
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        16. Show HN: obsidian - A knowledge base that works on local Markdown files
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        17. An English Clergyman's Advice for Quarantine
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        18. Bash IRC Quote Database
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        19. The transition of typography from punch cutters to number crunchers
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        20. Show HN: Simple-blogger - blog generated from Github project READMEs
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        21. Poems of my Father #3 - The First Snowfall
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        22. Maximator: European signals intelligence cooperation
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        23. The concurnas Programming Language
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        24. Building an IBM 3270 terminal controller
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        25. Circle medical (YC S15) is hiring an iOS engineer in Montreal
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        26. Google no longer providing original URL in AMP for image search results
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        27. Americans, it turns out, world rather visit a store than buy food online
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        28. Roman mosaic floor found under Italian vineyard
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        29. Boeing cutting more than 12,000 U.S. jobs with thousands more planned
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <div class="list">
+      <div class="upper-list">
+        30. A third of Americans now show signs of clinial anxiety or depression
+      </div>
+      <div class="under-list">
+        points by ago | hide | comments
+      </div>
+    </div>
+    <span id="more">More</span>
+  </section>
+  <footer>
+    <div id="footer-menu">
+      <a href="https://news.ycombinator.com/newsguidelines.html">Guidelines</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/newsfaq.html">FAQ</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/news">Support</a>
+      <span>|</span>
+      <a href="https://github.com/HackerNews/API">API</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/security.html">security</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/lists">Lists</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/bookmarklet.html">Bookmarklet</a>
+      <span>|</span>
+      <a href="https://www.ycombinator.com/legal/">Legal</a>
+      <span>|</span>
+      <a href="https://www.ycombinator.com/apply/">Apply to YC</a>
+      <span>|</span>
+      <a href="https://news.ycombinator.com/news">Contact</a>
+    </div>
+    <div id="search">
+      Search:
+    </div>
+  </footer>
+</body>
+</html>
